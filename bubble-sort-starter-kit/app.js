@@ -14,6 +14,7 @@ function bubbleSort(arr) {
     for(i= 0, j = 1;i < arr.length; i++, j++){
       //comparing takes place: if element on the left is > than element on right, then swap values
       if(arr[i] > arr[j]) {
+        ///swpping of value takes place within the next three var
         temp = arr[i];  ///holds value of left while swap takes place
         arr[i] = arr[j];  ///assigns value on right to value on left
         arr[j] = temp;  ////assigns value of right value of left , final swap 
